@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Kartik" name="seleniumwithmaven.Login" tests="1" failures="0" timestamp="19 Jun 2020 09:19:41 GMT" time="0.026" errors="0">
+  <testcase name="seleniumwithmaven" time="0.013" classname="seleniumwithmaven.Login"/>
+</testsuite>
