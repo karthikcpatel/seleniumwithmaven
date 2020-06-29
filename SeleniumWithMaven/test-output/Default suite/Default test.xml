@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="Kartik" name="seleniumwithmaven.Login" tests="1" failures="0" timestamp="19 Jun 2020 09:16:02 GMT" time="0.1" errors="0">
-  <testcase name="seleniumwithmaven" time="0.064" classname="seleniumwithmaven.Login"/>
+<testsuite hostname="II31-7DHY4Q2" failures="0" tests="1" name="seleniumwithmaven.RunTestOnChrome" time="28.39" errors="0" timestamp="27 Jun 2020 17:10:05 GMT">
+  <testcase classname="seleniumwithmaven.RunTestOnChrome" name="test" time="2.189"/>
 </testsuite>

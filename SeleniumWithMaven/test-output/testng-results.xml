@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="100" started-at="2020-06-19T14:46:02Z" finished-at="2020-06-19T14:46:02Z">
+  <suite started-at="2020-06-27T22:43:16Z" name="Suite" finished-at="2020-06-27T22:43:45Z" duration-ms="29220">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="100" started-at="2020-06-19T14:46:02Z" finished-at="2020-06-19T14:46:02Z">
+    <test started-at="2020-06-27T22:43:16Z" name="Test" finished-at="2020-06-27T22:43:45Z" duration-ms="29220">
       <class name="seleniumwithmaven.Login">
-        <test-method status="PASS" signature="seleniumwithmaven()" name="seleniumwithmaven" duration-ms="64" started-at="2020-06-19T14:46:02Z" finished-at="2020-06-19T14:46:02Z">
+        <test-method signature="seleniumwithmaven()" started-at="2020-06-27T22:43:16Z" name="seleniumwithmaven" finished-at="2020-06-27T22:43:16Z" duration-ms="8" status="PASS">
+        </test-method>
+      </class>
+      <class name="seleniumwithmaven.RunTestOnChrome">
+        <test-method is-config="true" signature="beforeMethod()" started-at="2020-06-27T22:43:16Z" name="beforeMethod" finished-at="2020-06-27T22:43:42Z" duration-ms="26018" status="PASS">
+        </test-method>
+        <test-method signature="test()" started-at="2020-06-27T22:43:42Z" name="test" finished-at="2020-06-27T22:43:45Z" duration-ms="3111" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="afterMethod()" started-at="2020-06-27T22:43:45Z" name="afterMethod" finished-at="2020-06-27T22:43:45Z" duration-ms="73" status="PASS">
         </test-method>
       </class>
     </test>

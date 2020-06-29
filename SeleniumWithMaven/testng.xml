@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="seleniumwithmaven.Login"/>
+      <class name="seleniumwithmaven.RunTestOnChrome"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
