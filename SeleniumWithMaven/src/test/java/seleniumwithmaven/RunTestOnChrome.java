@@ -6,15 +6,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class RunTestOnChrome {
 	WebDriver driver;
 	
 	@BeforeMethod
 	public void beforeMethod() {
-	String path = System.getProperty("user.dir");
-	String driverpath = path + "\\drivers\\chromedriver_83.exe";
-	System.setProperty("webdriver.chrome.driver", driverpath);
+	
+	WebDriverManager.chromedriver().setup();
+	System.setProperty("webdriver.chrome.silentOutput","true");
+	//String path = System.getProperty("user.dir");
+	//String driverpath = path + "\\drivers\\chromedriver_85.exe";
+	//System.setProperty("webdriver.chrome.driver", driverpath);
 	driver = new ChromeDriver();
 	}
 	

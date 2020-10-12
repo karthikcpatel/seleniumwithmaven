@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="II31-7DHY4Q2" failures="0" tests="1" name="seleniumwithmaven.RunTestOnChrome" time="28.39" errors="0" timestamp="27 Jun 2020 17:10:05 GMT">
-  <testcase classname="seleniumwithmaven.RunTestOnChrome" name="test" time="2.189"/>
+<testsuite hostname="II31-7DHY4Q2" failures="0" tests="1" name="seleniumwithmaven.RunTestOnChrome" time="99.581" errors="0" timestamp="12 Oct 2020 12:55:19 GMT">
+  <testcase classname="seleniumwithmaven.RunTestOnChrome" name="test" time="15.535"/>
 </testsuite>

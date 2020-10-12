@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-12T18:26:08Z" name="Suite" finished-at="2020-10-12T18:26:41Z" duration-ms="32298">
+    <groups>
+    </groups>
+    <test started-at="2020-10-12T18:26:08Z" name="Test" finished-at="2020-10-12T18:26:41Z" duration-ms="32298">
+      <class name="seleniumwithmaven.Login">
+        <test-method signature="seleniumwithmaven()" started-at="2020-10-12T18:26:08Z" name="seleniumwithmaven" finished-at="2020-10-12T18:26:08Z" duration-ms="5" status="PASS">
+        </test-method>
+      </class>
+      <class name="seleniumwithmaven.RunTestOnChrome">
+        <test-method is-config="true" signature="beforeMethod()" started-at="2020-10-12T18:26:08Z" name="beforeMethod" finished-at="2020-10-12T18:26:23Z" duration-ms="15042" status="PASS">
+        </test-method>
+        <test-method signature="test()" started-at="2020-10-12T18:26:23Z" name="test" finished-at="2020-10-12T18:26:38Z" duration-ms="14925" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="afterMethod()" started-at="2020-10-12T18:26:38Z" name="afterMethod" finished-at="2020-10-12T18:26:41Z" duration-ms="2318" status="PASS">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
